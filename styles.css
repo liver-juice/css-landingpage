@@ -127,6 +127,7 @@ img {
 .title {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .title p {
     font-size: 36px;
@@ -166,4 +167,62 @@ img {
     font-weight: 700;
     color:#1F2937;
     margin-right: 50px;
+}
+
+.signuptab {
+    display: flex;
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.signupcontent {
+    display: flex;
+    flex: 1;
+    background-color: #3882F6;
+    margin: 80px;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signupcontent {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.signupcontent .sub {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.signupcontent .columndiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.signupcontent div {
+    display: flex;
+}
+
+.signupbutton {
+    border: 1px solid white;
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .copyright {
+    display: flex;
+}
+
+.footer .copyright p {
+    color: #E5E7EB;
 }
